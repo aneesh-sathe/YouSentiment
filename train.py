@@ -11,7 +11,7 @@ import pandas as pd
 VOCAB_SIZE = 10000
 MAX_LEN = 250
 EMBEDDING_DIM = 16
-MODEL_PATH = 'sentiment_analysis_model.h5'
+MODEL_PATH = 'app/sentiment_analysis_model.h5'
 
 file_path = 'data.csv'
 data = pd.read_csv(file_path, encoding='ISO-8859-1')
